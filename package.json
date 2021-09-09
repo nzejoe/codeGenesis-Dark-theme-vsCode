@@ -1,0 +1,26 @@
+{
+  "name": "codegenesis-dark-theme",
+  "displayName": "codeGenesis Dark Theme",
+  "description": "codeGenesis Dark Theme!",
+  "publisher": "codeGenesis",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nzejoe/codeGenesis-Dark-theme-vsCode.git"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dark Theme-color-theme.json"
+      }
+    ]
+  }
+}
