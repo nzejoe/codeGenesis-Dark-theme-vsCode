@@ -389,7 +389,7 @@
     {
       "scope": ["string", "meta.embedded.assembly"],
       "settings": {
-        "foreground": "#ce9178"
+        "foreground": "#af8f82"
       }
     },
     {
@@ -518,19 +518,18 @@
       "name": "this.self",
       "scope": "variable.language",
       "settings": {
-        "foreground": "#569cd6"
+        "foreground": "#4FC1FF"
       }
     },
     {
-      "name": "python control flow",
+      "name": "python function call",
       "scope": [
-        "keyword.control.flow",
         "keyword.operator.comparison",
         "entity.name.function",
         "meta.function-call"
       ],
       "settings": {
-        "foreground": "#ff8b67"
+        "foreground": "#ffee7e"
       }
     },
     {
@@ -542,27 +541,21 @@
     },
     {
       "name": "python  function parameters",
-      "scope": "variable.parameter",
-      "settings": {
-        "foreground": "#6a74fd"
-      }
-    },
-    {
-      "name": "python  variables",
-      "scope": "variable",
-      "settings": {
-        "foreground": "#ffffff"
-      }
-    },
-    {
-      "name": "css tag.wildcard",
       "scope": [
+        "variable.parameter",
         "entity.name.tag.wildcard",
         "keyword.operator.gradient.css",
         "support.constant.property-value.css"
       ],
       "settings": {
         "foreground": "#ff8b67"
+      }
+    },
+    {
+      "name": "python  variables",
+      "scope": "variable",
+      "settings": {
+        "foreground": "#f8c9e5"
       }
     },
     {
@@ -619,6 +612,49 @@
       ],
       "settings": {
         "foreground": "#966c45"
+      }
+    },
+    {
+      "name": "react units",
+      "scope": [
+        "keyword.operator.comparison",
+        "storage.modifier.async",
+        "keyword.control.flow"
+      ],
+      "settings": {
+        "foreground": "#d80fdf"
+      }
+    },
+    {
+      "name": "js function call",
+      "scope": [
+        "support.class.promise.js",
+        "support.class.component",
+        "source.python"
+      ],
+      "settings": {
+        "foreground": "#48d6c6"
+      }
+    },
+    {
+      "name": "js function call",
+      "scope": ["variable.other.property", "entity.other.attribute-name"],
+      "settings": {
+        "foreground": "#EF476F"
+      }
+    },
+    {
+      "name": "js function call",
+      "scope": ["text.html.derivative"],
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "name": "storage.type",
+      "scope": ["meta.function.decorator", "keyword.operator.logical",],
+      "settings": {
+        "foreground": "#6a71da"
       }
     }
   ]

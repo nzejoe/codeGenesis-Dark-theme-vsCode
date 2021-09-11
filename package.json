@@ -2,8 +2,8 @@
   "name": "codegenesis-dark-theme",
   "displayName": "codeGenesis Dark Theme",
   "description": "codeGenesis Dark Theme!",
-  "publisher": "codeGenesis",
-  "version": "0.0.1",
+  "publisher": "nzejoe",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.60.0"
   },
@@ -17,7 +17,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Dark Theme",
+        "label": "codeGenesis Dark Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/Dark Theme-color-theme.json"
       }
