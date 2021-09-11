@@ -541,11 +541,11 @@
       "name": "css units & values",
       "scope": [
         "meta.property-value",
-        "keyword.other.unit",
         "constant.numeric.css",
+        "keyword.other.unit"
       ],
       "settings": {
-        "foreground": "#9FA0FF"
+        "foreground": "#dd99a4"
       }
     },
     {
@@ -571,7 +571,7 @@
       }
     },
     {
-      "name": "js function call",
+      "name": "js",
       "scope": [
         "keyword.operator.comparison",
         "storage.modifier.async",
