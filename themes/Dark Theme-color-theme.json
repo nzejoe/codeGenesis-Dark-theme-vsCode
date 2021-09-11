@@ -204,7 +204,7 @@
     {
       "scope": "comment",
       "settings": {
-        "foreground": "#6A9955"
+        "foreground": "#7e7d7d"
       }
     },
     {
@@ -389,7 +389,7 @@
     {
       "scope": ["string", "meta.embedded.assembly"],
       "settings": {
-        "foreground": "#af8f82"
+        "foreground": "#88be77"
       }
     },
     {
@@ -529,7 +529,7 @@
         "meta.function-call"
       ],
       "settings": {
-        "foreground": "#ffee7e"
+        "foreground": "#cec58a"
       }
     },
     {
@@ -543,36 +543,19 @@
       "name": "python  function parameters",
       "scope": [
         "variable.parameter",
-        "entity.name.tag.wildcard",
         "keyword.operator.gradient.css",
         "support.constant.property-value.css"
       ],
       "settings": {
-        "foreground": "#ff8b67"
+        "foreground": "#f79375"
       }
     },
+
     {
-      "name": "python  variables",
-      "scope": "variable",
-      "settings": {
-        "foreground": "#f8c9e5"
-      }
-    },
-    {
-      "name": "css punctuation.definition",
-      "scope": [
-        "punctuation.definition.entity",
-        "entity.other.attribute-name.pseudo-element.css"
-      ],
-      "settings": {
-        "foreground": "#528b40"
-      }
-    },
-    {
-      "name": "css pseudo-element",
+      "name": "css",
       "scope": "support.type.property-name",
       "settings": {
-        "foreground": "#a38a98"
+        "foreground": "#eba24a"
       }
     },
     {
@@ -583,10 +566,16 @@
       }
     },
     {
-      "name": "css constant.numeric",
-      "scope": ["meta.function.gradient.css", "support.function.shape.css", ""],
+      "name": "css functions",
+      "scope": [
+        "meta.function.gradient.css",
+        "support.function.shape.css",
+        "support.function.transform.css",
+        "support.function.misc.css",
+        "support.function.url.css"
+      ],
       "settings": {
-        "foreground": "#80b3ff"
+        "foreground": "#65acc4"
       }
     },
     {
@@ -596,33 +585,23 @@
         "keyword.other.unit.vh.css",
         "constant.numeric.css",
         "keyword.other.unit.rem.css",
-        "keyword.other.unit.percentage.css"
+        "keyword.other.unit.percentage.css",
+        "keyword.other.unit.s.css"
       ],
       "settings": {
-        "foreground": "#966c45"
-      }
-    },
-    {
-      "name": "css units",
-      "scope": [
-        "keyword.other.unit.vh.css",
-        "constant.numeric.css",
-        "keyword.other.unit.rem.css",
-        "keyword.other.unit.percentage.css"
-      ],
-      "settings": {
-        "foreground": "#966c45"
+        "foreground": "#FFA6C1"
       }
     },
     {
       "name": "react units",
       "scope": [
-        "keyword.operator.comparison",
-        "storage.modifier.async",
-        "keyword.control.flow"
+        "entity.other.attribute-name",
+        "variable.other.property",
+        "entity.other.attribute-name.pseudo-element.css",
+        "entity.other.attribute-name.class.css"
       ],
       "settings": {
-        "foreground": "#d80fdf"
+        "foreground": "#ac7dad"
       }
     },
     {
@@ -630,31 +609,44 @@
       "scope": [
         "support.class.promise.js",
         "support.class.component",
-        "source.python"
+        "source.python",
+        "punctuation.definition.entity",
+        "meta.property-list.css"
       ],
       "settings": {
-        "foreground": "#48d6c6"
+        "foreground": "#71beb5"
       }
     },
     {
       "name": "js function call",
-      "scope": ["variable.other.property", "entity.other.attribute-name"],
+      "scope": [
+        "keyword.operator.comparison",
+        "storage.modifier.async",
+        "keyword.control.flow",
+        "entity.name.tag.html",
+        "entity.name.tag.css",
+        "entity.name.tag.wildcard.css"
+      ],
       "settings": {
         "foreground": "#EF476F"
       }
     },
     {
       "name": "js function call",
-      "scope": ["text.html.derivative"],
+      "scope": ["text.html.derivative", "variable"],
       "settings": {
-        "foreground": "#ffffff"
+        "foreground": "#e7e7e7"
       }
     },
     {
       "name": "storage.type",
-      "scope": ["meta.function.decorator", "keyword.operator.logical",],
+      "scope": [
+        "entity.name.function.decorator",
+        "keyword.operator.logical",
+        "meta.function.decorator"
+      ],
       "settings": {
-        "foreground": "#6a71da"
+        "foreground": "#569CD6"
       }
     }
   ]
