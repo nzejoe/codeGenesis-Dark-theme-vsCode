@@ -100,7 +100,7 @@
     "breadcrumb.activeSelectionForeground": "#8b949e",
     "breadcrumbPicker.background": "#1c2128",
     "editor.foreground": "#c9d1d9",
-    "editor.background": "#0d1117",
+    "editor.background": "#1D2225",
     "editorWidget.background": "#1c2128",
     "editor.foldBackground": "#6e76811a",
     "editor.lineHighlightBackground": "#161b22",
@@ -230,39 +230,7 @@
         "foreground": "#646695"
       }
     },
-    {
-      "scope": "entity.name.tag",
-      "settings": {
-        "foreground": "#569cd6"
-      }
-    },
-    {
-      "scope": "entity.name.tag.css",
-      "settings": {
-        "foreground": "#8189ff"
-      }
-    },
-    {
-      "scope": "entity.other.attribute-name",
-      "settings": {
-        "foreground": "#9cdcfe"
-      }
-    },
-    {
-      "scope": [
-        "entity.other.attribute-name.class.css",
-        "entity.other.attribute-name.class.mixin.css",
-        "entity.other.attribute-name.id.css",
-        "entity.other.attribute-name.parent-selector.css",
-        "entity.other.attribute-name.pseudo-class.css",
-        "entity.other.attribute-name.pseudo-element.css",
-        "source.css.less entity.other.attribute-name.id",
-        "entity.other.attribute-name.scss"
-      ],
-      "settings": {
-        "foreground": "#d7ba7d"
-      }
-    },
+    
     {
       "scope": "invalid",
       "settings": {
@@ -432,9 +400,6 @@
       "scope": [
         "support.type.vendored.property-name",
         "support.type.property-name",
-        "variable.css",
-        "variable.scss",
-        "variable.other.less",
         "source.coffee.embedded"
       ],
       "settings": {
@@ -474,12 +439,6 @@
       ],
       "settings": {
         "foreground": "#569cd6"
-      }
-    },
-    {
-      "scope": "keyword.other.unit",
-      "settings": {
-        "foreground": "#b5cea8"
       }
     },
     {
@@ -529,7 +488,7 @@
         "meta.function-call"
       ],
       "settings": {
-        "foreground": "#cec58a"
+        "foreground": "#FFBE0B"
       }
     },
     {
@@ -547,7 +506,7 @@
         "support.constant.property-value.css"
       ],
       "settings": {
-        "foreground": "#f79375"
+        "foreground": "#ff825c"
       }
     },
 
@@ -568,11 +527,11 @@
     {
       "name": "css functions",
       "scope": [
-        "meta.function.gradient.css",
-        "support.function.shape.css",
-        "support.function.transform.css",
-        "support.function.misc.css",
-        "support.function.url.css"
+        "meta.function.gradient",
+        "support.function.shape",
+        "support.function.transform",
+        "support.function.misc",
+        "support.function.url",
       ],
       "settings": {
         "foreground": "#65acc4"
@@ -581,27 +540,21 @@
     {
       "name": "css units & values",
       "scope": [
-        "meta.property-value.css",
-        "keyword.other.unit.vh.css",
+        "meta.property-value",
+        "keyword.other.unit",
         "constant.numeric.css",
-        "keyword.other.unit.rem.css",
-        "keyword.other.unit.percentage.css",
-        "keyword.other.unit.s.css"
       ],
       "settings": {
-        "foreground": "#FFA6C1"
+        "foreground": "#9FA0FF"
       }
     },
     {
-      "name": "react units",
       "scope": [
         "entity.other.attribute-name",
         "variable.other.property",
-        "entity.other.attribute-name.pseudo-element.css",
-        "entity.other.attribute-name.class.css"
       ],
       "settings": {
-        "foreground": "#ac7dad"
+        "foreground": "#d074d1"
       }
     },
     {
@@ -611,10 +564,10 @@
         "support.class.component",
         "source.python",
         "punctuation.definition.entity",
-        "meta.property-list.css"
+        "meta.property-list"
       ],
       "settings": {
-        "foreground": "#71beb5"
+        "foreground": "#66d6c9"
       }
     },
     {
@@ -623,9 +576,7 @@
         "keyword.operator.comparison",
         "storage.modifier.async",
         "keyword.control.flow",
-        "entity.name.tag.html",
-        "entity.name.tag.css",
-        "entity.name.tag.wildcard.css"
+        "entity.name.tag",
       ],
       "settings": {
         "foreground": "#EF476F"
