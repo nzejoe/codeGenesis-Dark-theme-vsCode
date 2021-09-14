@@ -3,7 +3,7 @@
   "displayName": "codeGenesis Dark Theme",
   "description": "codeGenesis Dark Theme!",
   "publisher": "nzejoe",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.60.0"
   },

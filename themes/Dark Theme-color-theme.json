@@ -332,19 +332,13 @@
       }
     },
     {
-      "scope": "storage",
-      "settings": {
-        "foreground": "#569cd6"
-      }
-    },
-    {
       "scope": "storage.type",
       "settings": {
-        "foreground": "#569cd6"
+        "foreground": "#9FA0FF"
       }
     },
     {
-      "scope": ["storage.modifier", "keyword.operator.noexcept"],
+      "scope": ["keyword.operator.noexcept"],
       "settings": {
         "foreground": "#569cd6"
       }
@@ -476,7 +470,6 @@
     {
       "name": "python function call",
       "scope": [
-        "keyword.operator.comparison",
         "entity.name.function",
         "meta.function-call"
       ],
@@ -561,12 +554,13 @@
     {
       "name": "control flow",
       "scope": [
+        "keyword.control",
         "storage.modifier.async",
-        "keyword.control.flow",
+        "keyword.operator.comparison",
         "entity.name.tag",
       ],
       "settings": {
-        "foreground": "#e04b58"
+        "foreground": "#ff0077"
       }
     },
 
@@ -582,14 +576,13 @@
       }
     },
     {
-      "name": "js function call",
       "scope": ["text.html.derivative", "variable"],
       "settings": {
         "foreground": "#ebebeb"
       }
     },
     {
-      "name": "storage.type",
+      "name": "",
       "scope": [
         "entity.name.function.decorator",
         "meta.function.decorator"
@@ -599,7 +592,6 @@
       }
     },
     {
-      "name": "storage.type",
       "scope": [
         "entity.name.function.decorator",
         "meta.function.decorator"
