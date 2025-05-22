@@ -1,26 +1,26 @@
 {
-  "name": "codegenesis-dark-theme",
-  "displayName": "codeGenesis Dark Theme",
-  "description": "codeGenesis Dark Theme!",
-  "publisher": "nzejoe",
-  "version": "0.1.0",
-  "engines": {
-    "vscode": "^1.60.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/nzejoe/codeGenesis-Dark-theme-vsCode.git"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "codeGenesis Dark Theme",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Dark Theme-color-theme.json"
-      }
-    ]
-  }
+    "name": "codegenesis-dark-theme",
+    "displayName": "codeGenesis Dark Theme",
+    "description": "codeGenesis Dark Theme!",
+    "publisher": "nzejoe",
+    "version": "0.1.1",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nzejoe/codeGenesis-Dark-theme-vsCode.git"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "codeGenesis Dark Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Dark Theme-color-theme.json"
+            }
+        ]
+    }
 }
