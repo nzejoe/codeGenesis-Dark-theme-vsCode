@@ -465,7 +465,7 @@
             "name": "python function call",
             "scope": ["entity.name.function", "meta.function-call"],
             "settings": {
-                "foreground": "#65acc4"
+                "foreground": "#79b7cc"
             }
         },
         {
@@ -546,7 +546,7 @@
             "name": "control flow",
             "scope": ["keyword.control", "storage.modifier.async", "keyword.operator.comparison", "entity.name.tag"],
             "settings": {
-                "foreground": "#ff0077"
+                "foreground": "#ff58a6"
             }
         },
 
@@ -554,11 +554,11 @@
             "name": "operators",
             "scope": ["keyword.operator", "constant.language", "support.constant.property-value.css"],
             "settings": {
-                "foreground": "#a069ce"
+                "foreground": "#b798d1"
             }
         },
         {
-            "scope": ["text.html.derivative", "variable", ""],
+            "scope": ["text.html.derivative", "variable", "meta.jsx.children"],
             "settings": {
                 "foreground": "#ebebeb"
             }
@@ -580,7 +580,7 @@
             "name": "HTML tags",
             "scope": ["entity.name.tag", "meta.tag", "meta.tag.attributes", "meta.tag.attributes.html"],
             "settings": {
-                "foreground": "#f51f83"
+                "foreground": "#fd4d9f"
             }
         },
         {
